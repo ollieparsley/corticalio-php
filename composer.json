@@ -2,6 +2,7 @@
     "name": "ollieparsley/corticalio",
     "description": "Client library for the cortical.io API",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ollie Parsley",
