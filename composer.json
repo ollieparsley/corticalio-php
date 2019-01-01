@@ -1,0 +1,20 @@
+{
+    "name": "ollieparsley/corticalio",
+    "description": "Client library for the cortical.io API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ollie Parsley",
+            "email": "ollie@ollieparsley.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4":{
+            "Corticalio\\": "lib/"
+        }
+    }
+}
