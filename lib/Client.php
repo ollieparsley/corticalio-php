@@ -156,8 +156,6 @@ class Client
             }
         }
 
-        var_dump($requestOptions);
-
         $httpClient = $this->getHttpClient();
 
         $request = new Request($method, $url);
